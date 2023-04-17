@@ -8,108 +8,253 @@
     <meta name="author" content="">
 
     <title>Mi Portafolio</title>
-    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+
     <link href="./assets/css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
-<body>
+<body class="bg-black">
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand col-2" href="#">
+                <img src="/assets/img/Logo_1.jpg" alt="" width="35%" height="35%">
+            </a>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" aria-current="page" href="#detalle_trabajos">Mis Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" aria-current="page" href="#contactame">Contactame</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" aria-current="page" href="#">Colaboraciones</a>
+                    </li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
+            </div>
+        </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid bg-black">
+        <h4 class="fs-7 text-light text-center p-3">MI PORTAFOLIO</h4>
+    </div>
 
-        <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner border border-dark rounded-3 border-1" id="div_carrusel">
 
-            <div class="col-lg-12">
-                <h1 class="page-header">Mis Trabajos <small>Showcase Your Work</small></h1>
+            <div class="carousel-item active button-container">
+                <img src="/assets/img/CV.jpeg" style="height: 700px;width: 100%;" class="d-block w-100" alt="...">
+
             </div>
+            <div class="carousel-item button-container">
+                <img src="/assets/img/Landing_Page.jpg" style="height: 700px;width: 100%;" class="d-block w-100"
+                    alt="...">
 
+            </div>
+            <div class="carousel-item button-container">
+                <img src="/assets/img/Posicionamiento_Css.jpg" style="height: 700px;width: 100%;" class="d-block w-100"
+                    alt="...">
+
+
+            </div>
+            <div class="carousel-item button-container">
+                <img src="/assets/img/Ecommerce.jpg" style="height: 700px;width: 100%;" class="d-block w-100" alt="...">
+
+            </div>
         </div>
 
-        <div class="row">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
 
-            <div class="col-md-4 portfolio-item">
-                <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-                <h3><a href="#project-link">Curriculum Vitae</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                    pellentesque urna varius vitae.</p>
-            </div>
+    </div>
 
-            <div class="col-md-4 portfolio-item">
-                <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-                <h3><a href="#project-link">Project Name</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                    pellentesque urna varius vitae.</p>
-            </div>
+    <div class="container-fluid bg-black" id="detalle_trabajos">
+        <h4 class="fs-7 text-light text-center p-3 mt-4">DETALLE DE MIS TRABAJOS</h4>
+    </div>
 
-            <div class="col-md-4 portfolio-item">
-                <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-                <h3><a href="#project-link">Project Name</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                    pellentesque urna varius vitae.</p>
-            </div>
+    <div class="container-fluid p-0 m-xs-0 p-md-3">
+        <div class="row p-xs-0 p-md-3">
 
-        </div>
+            <div class="col-xs-12 col-md-3 mt-4">
+                <div class="card" style="height: 30rem;">
+                    <img src="./assets/img/CV.jpeg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Elaboracion de CV´s Online</h5>
+                        <p class="card-text">Servicio de elaboracion de hoja de vida 100% digital, para que puedas
+                            compartirlo y postearlo a cualquier oferta laboral </p>
+                        <h6> Mira un Ejemplo en vivo! <a href="https://portugfigo24.github.io/proyecto1/"><img
+                                    src="./assets/img/icono_cv.png" alt="CV" width="15%"></a></h6>
 
-        <hr>
-
-        <div class="row text-center">
-
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li><a href="#">&laquo;</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-        <hr>
-
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+                        <hr class="dropdown-divider">
+                        <div class="row gx-2 ">
+                            <div class="col-6 text-start py-1">
+                                <h4 class="fs-6">En tiempo Record!!</h4>
+                            </div>
+                            <div class="col-6 text-end py-1">
+                                <h4 class="fs-6 text-danger">Tan solo 2 dias</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
 
-    </div><!-- /.container -->
+            <div class="col-xs-12 col-md-3 mt-4">
+                <div class="card" style="height: 30rem;">
+                    <img src="./assets/img/Posicionamiento_Css.jpg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web CSS 3.0</h5>
+                        <p class="card-text">Servicio de diseño web con especialidad sobre front end, dale vida a tus
+                            webs con los mejores estilos, css, etc. </p>
+                        <h6> Mira un Ejemplo en vivo! <a href="https://portugfigo24.github.io/posicionamiento/"><img
+                                    src="./assets/img/icono_css-3.png" alt="CV" width="15%"></a></h6>
 
+                        <hr class="dropdown-divider">
+                        <div class="row gx-2 ">
+                            <div class="col-6 text-start py-1">
+                                <h4 class="fs-6">En tiempo Record!!</h4>
+                            </div>
+                            <div class="col-6 text-end py-1">
+                                <h4 class="fs-6 text-danger">Tan solo 2 dias</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 mt-4">
+                <div class="card" style="height: 30rem;">
+                    <img src="./assets/img/Landing_Page.jpg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web Landing Pages</h5>
+                        <p class="card-text">Servicio de diseño de tu landing page a la medida. Personaliza UI/UX, con
+                            las mejores tecnicas de front end, html y css. </p>
+                        <h6> Mira un Ejemplo en vivo! <a href="https://portugfigo24.github.io/landingpage/"><img
+                                    src="./assets/img/icono_landing.png" alt="CV" width="15%"></a></h6>
+
+                        <hr class="dropdown-divider">
+                        <div class="row gx-2 ">
+                            <div class="col-6 text-start py-1">
+                                <h4 class="fs-6">En tiempo Record!!</h4>
+                            </div>
+                            <div class="col-6 text-end py-1">
+                                <h4 class="fs-6 text-danger">Tan solo 2 dias</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 mt-4">
+                <div class="card" style="height: 30rem;">
+                    <img src="./assets/img/Ecommerce.jpg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo de Ecommerce</h5>
+                        <p class="card-text">Servicio de diseño de tu ecommerce page a la medida. Personaliza UI/UX, con
+                            las mejores tecnicas de front end, html y css. </p>
+                        <h6> Mira un Ejemplo en vivo! <a href="https://portugfigo24.github.io/desafioboostrap/"><img
+                                    src="./assets/img/icono_e-commerce.png" alt="CV" width="15%"></a></h6>
+
+                        <hr class="dropdown-divider">
+                        <div class="row gx-2 ">
+                            <div class="col-6 text-start py-1">
+                                <h4 class="fs-6">En tiempo Record!!</h4>
+                            </div>
+                            <div class="col-6 text-end py-1">
+                                <h4 class="fs-6 text-danger">Tan solo 2 dias</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black" id="detalle_trabajos">
+        <h4 class="fs-7 text-light text-center p-3 mt-4">COLABORACIONES</h4>
+    </div>
+
+    <div class="container-fluid p-0 m-xs-0 p-md-3">
+        <div class="row p-xs-0 p-md-3 justify-content-center">
+
+            <div class="col-xs-12 col-md-3 mt-4">
+                <div class="card" style="height: 18rem;">
+                    <img src="./assets/img/Fork1.jpg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Luis Acosta</h5>
+
+                        <h6> FORK1 <a href="https://luistaurik.github.io/portfolio-challenge/"><button type="button"
+                                    class="w-100 btn btn-lg btn-secondary">Go to project</button></a></h6>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 mt-4 justify-content-center">
+                <div class="card" style="height: 18rem;">
+                    <img src="./assets/img/Fork2.jpg" class="card-img-top" alt="LAD">
+                    <div class="card-body">
+                        <h5 class="card-title">Hernan Olave</h5>
+
+                        <h6> FORK2 <a href="https://hernan19961.github.io/Portafolio/"><button type="button"
+                                    class="w-100 btn btn-lg btn-secondary">Go to project</button></a></h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="container-fluid" id="contactame">
+        <div class="row bg-secondary">
+            <div class="col-12 text-center">
+                <br>
+                <h5 class="text-white pb-2 "> Suscribete y recibe actualizaciones sobre mis trabajos</h5>
+                <form class="px-xs-0 px-md-5">
+                    <input class="form-control" type="text" placeholder="Nombre">
+                    <br>
+                    <input class="form-control" type="email" placeholder="Correo electronico">
+                    <br>
+                    <button type="submit" class="btn btn-light mb-3">Enviar</button>
+                </form>
+
+            </div>
+            <div class="bg-white text-center pt-4">
+                <img src="./assets/img/Logo_1.jpg" alt="logo" width="5%">
+                <a href="https://www.linkedin.com/in/agustinfigueira/"><img
+                        src="./assets/img/logotipo-cuadrado-de-linkedin.png" alt="linkedin" width="3.5%"></a>
+
+                <h6 class="p-3">@2023 Agustin Figueira Todos los derechos reservados</h6>
+            </div>
+        </div>
+
+    </section>
+
+    </div>
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
