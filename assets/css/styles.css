@@ -1,6 +1,5 @@
 .carousel-item {
     height: 75vh;
-    /* min-height: 400px; */
     background: no-repeat center center scroll;
     background-size: cover;
     position: relative
@@ -14,8 +13,7 @@
     right:8em;
     text-transform:uppercase;
     padding:1em 1.5em;
-    /* width: 8vw;
-    height: 5vw; */
+
 
 }
 
